@@ -6,3 +6,12 @@
     ~/.zshrc: zshrc
     ~/.gitconfig: gitconfig
 
+- clean: ['~']
+
+- link:
+    ~/.gitconfig: gitconfig
+    ~/.ssh/config:
+        path: ssh/config
+        create: true
+
+

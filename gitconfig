@@ -1,0 +1,7 @@
+[user]
+	name = Cris Padilla
+	email = crispadilla82@gmail.com
+[core]
+	editor = vim
+[merge]
+	tool = kdiff3
