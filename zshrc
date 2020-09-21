@@ -114,6 +114,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias lc='colorls' # Alias used for improving the ls command so it shows colors and icons
 alias gs='git status'
+alias gc='git commit'
 alias mv='mv -i'
 
 
