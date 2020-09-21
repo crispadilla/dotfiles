@@ -20,9 +20,15 @@ Plug 'itchyny/lightline.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons'
+Plug 'easymotion/vim-easymotion'
+Plug 'mileszs/ack.vim'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
+
+
+" Set path for ctrlp pluggin 
+set runtimepath^=~/.vim/plugged/ctrlp/ctrlp.vim
 
 set wildmenu
 
