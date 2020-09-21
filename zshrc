@@ -79,7 +79,8 @@ ENABLE_CORRECTION="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git 
          zsh-autosuggestions
-         zsh-apple-touchbar)
+         zsh-apple-touchbar
+         zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -87,7 +88,7 @@ source $ZSH/oh-my-zsh.sh
    # Enable tab completion for flags.
    source $(dirname $(gem which colorls))/tab_complete.sh
 
-# export MANPATH="/usr/local/man:$MANPATH"
+
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -111,8 +112,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# Alias used for improving the ls command so it shows colors and icons
-alias lc='colorls'
+alias lc='colorls' # Alias used for improving the ls command so it shows colors and icons
+alias gs='git status'
+alias mv='mv -i'
+
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
