@@ -1,4 +1,5 @@
 "Plug 'whatyouhide/fugitive'
+" Alias used for improving the ls command so it shows colors and icons
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -22,6 +23,9 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons'
 Plug 'easymotion/vim-easymotion'
 Plug 'mileszs/ack.vim'
+Plug 'tpope/vim-surround'   "Surround with parentheses & co
+Plug 'mhinz/vim-startify'   "Better start screen
+Plug 'joom/vim-commentary'  "To comment stuff out
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
