@@ -7,7 +7,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # If you come from bash you might have to change your $PATH.
-export PATH=/usr/local/anaconda3/bin:~/.symlinks:/Users/cristobalpadilla/.local/bin:$PATH 
+export PATH=/usr/local/opt/ruby/bin:/usr/local/anaconda3/bin:~/.symlinks:/Users/cristobalpadilla/.local/bin:$PATH 
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/cristobalpadilla/.oh-my-zsh"
@@ -112,10 +112,16 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias vim='/usr/local/Cellar/macvim/8.2-166/bin/vim'
 alias lc='colorls' # Alias used for improving the ls command so it shows colors and icons
 alias gs='git status'
+alias gpl='git log --all --graph --decorate'
 alias gc='git commit'
+alias gco='git checkout'
 alias mv='mv -i'
+
+alias sl='cd ~/.symlinks && cd'   # Jump to symbolic link folder and use links
+
 
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
