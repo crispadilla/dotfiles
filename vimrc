@@ -14,7 +14,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'junegunn/seoul256.vim'
 Plug 'chrisbra/csv.vim'
 Plug 'scrooloose/nerdtree'
-Plug 'tsony-tsonen/nerdtree-git-plugin'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'scrooloose/nerdcommenter'
 Plug 'itchyny/lightline.vim'
@@ -25,7 +24,7 @@ Plug 'easymotion/vim-easymotion'
 Plug 'mileszs/ack.vim'
 Plug 'tpope/vim-surround'   "Surround with parentheses & co
 Plug 'mhinz/vim-startify'   "Better start screen
-Plug 'joom/vim-commentary'  "To comment stuff out
+Plug 'tpope/vim-commentary'  "To comment stuff out
 Plug 'neoclide/coc.nvim', {'branch': 'release'}    "Code completion
 Plug 'alvan/vim-closetag'   "Tag closing 
 

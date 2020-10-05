@@ -113,13 +113,13 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias vim='/usr/local/Cellar/macvim/8.2-166/bin/vim'
-alias lc='colorls' # Alias used for improving the ls command so it shows colors and icons
+alias ls='colorls' # Alias used for improving the ls command so it shows colors and icons
 alias gs='git status'
-alias gpl='git log --all --graph --decorate'
+alias gpl='git log --graph --abbrev-commit --decorate --format=format:'"'"'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)'"'"' --all'
 alias gc='git commit'
 alias gco='git checkout'
 alias mv='mv -i'
-
+alias cleanBrew='rm -rf $(brew --cache)'      # Clear the brew cache
 alias sl='cd ~/.symlinks && cd'   # Jump to symbolic link folder and use links
 
 
