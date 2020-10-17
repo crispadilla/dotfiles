@@ -112,7 +112,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias vim='/usr/local/Cellar/macvim/8.2-166/bin/vim'
+alias vim='/usr/local/Cellar/macvim/8.2-166_1/bin/vim'
 alias ls='colorls' # Alias used for improving the ls command so it shows colors and icons
 alias gs='git status'
 alias gpl='git log --graph --abbrev-commit --decorate --format=format:'"'"'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)'"'"' --all'
